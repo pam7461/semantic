@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시맨틱테그</title>
+    <style>
+        *{margin:0;border:none;padding:0;}
+        ul{list-style:none;}
+        ol{list-style:none;}
+        a{text-decoration:none;}
+        .par{overflow: hidden;}
+        .child_left{float:left;}
+        .child_right{float:right;}
+        .child_clear{clear:both;}
+
+        .wrap{width:800px;height:600px;margin:0 auto;border:1px solid black;padding:10px;background:rgba(0,0,0,0.2);background-clip:content-box;}
+        header{box-sizing:border-box;width:800px;height:150px;border:5px solid black;padding:20px;background:rgba(0,0,0,0.2);}
+        section{width:800px;height:350px;background:rgba(255,0,0,0.2);}
+        footer{width:800px;height:100px;background:rgba(0,255,0,0.2);}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header class="par">
+            <div class="logo child_left">로고</div>
+            <nav class="child_right">내비게이션</nav>
+        </header>
+        <section></section>
+        <footer></footer>
+    </div>
+</body>
+</html>
